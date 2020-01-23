@@ -12,7 +12,7 @@ end
 
 def assign_rooms(names)
   new_arr = []
-  names.each_with_index {|name, index| new_arr << "Hello, #{name} + Index: #{index + 1}"}
+  names.each_with_index {|name, index| new_arr << "Hello, #{name}! You'll be assigned to room #{index + 1}"}
   puts new_arr.inspect
 end
 
