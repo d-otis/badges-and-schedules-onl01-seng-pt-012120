@@ -16,3 +16,6 @@ def assign_rooms(names)
   new_arr
 end
 
+def printer
+  
+end
