@@ -13,6 +13,7 @@ end
 def assign_rooms(names)
   new_arr = []
   names.each_with_index {|name, index| new_arr << "Name: #{name} + Index: #{index + 1}"}
+  puts new_arr
 end
 
 assign_rooms(names)
