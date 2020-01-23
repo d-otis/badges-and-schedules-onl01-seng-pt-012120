@@ -16,4 +16,4 @@ def assign_rooms(names)
   # new_arr.inspect
 end
 
-assign_rooms(names)
+# assign_rooms(names)
