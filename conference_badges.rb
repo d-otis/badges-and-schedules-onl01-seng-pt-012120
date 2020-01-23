@@ -21,4 +21,4 @@ def printer(names)
   assign_rooms(names).each {|assignment| puts assignment}
 end
 
-printer(names)
+# printer(names)
