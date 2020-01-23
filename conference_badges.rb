@@ -1,4 +1,7 @@
 # Write your code here.
+
+names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+
 def badge_maker(name)
   "Hello, my name is #{name}."
 end
@@ -8,9 +11,7 @@ def batch_badge_creator(name_array)
 end
 
 def assign_rooms(names)
-  names.each do
-    
-  end
+  names.each_with_index {|name, index| puts "Name: #{name} + Index: #{index}"}
 end
 
 assign_rooms(names)
