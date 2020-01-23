@@ -16,4 +16,3 @@ def assign_rooms(names)
   new_arr
 end
 
-# assign_rooms(names)
